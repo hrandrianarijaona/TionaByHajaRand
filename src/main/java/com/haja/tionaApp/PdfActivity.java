@@ -3,7 +3,10 @@ package com.haja.tionaApp;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Environment;
+import android.widget.EditText;
+import android.widget.Toast;
 
+import com.googlecode.androidannotations.annotations.Click;
 import com.joanzapata.pdfview.PDFView;
 import com.joanzapata.pdfview.listener.OnPageChangeListener;
 
@@ -14,6 +17,8 @@ import com.googlecode.androidannotations.annotations.AfterViews;
 import com.googlecode.androidannotations.annotations.EActivity;
 import com.googlecode.androidannotations.annotations.ViewById;
 
+import java.io.File;
+
 /**
  * Created by haja on 17/01/15.
  */
@@ -22,6 +27,8 @@ public class PdfActivity extends Activity implements OnPageChangeListener {
 
     @ViewById(R.id.pdfview)
     PDFView pdfView;
+    @ViewById(R.id.nb_edit)
+    EditText editText;
 
     Intent intent;
     String pdfName;
@@ -42,7 +49,7 @@ public class PdfActivity extends Activity implements OnPageChangeListener {
 //                tmp = tmp + pdfName;
 //                display(tmp, true);
 //            }
-            display(pdfName, true);
+              display(pdfName, true);
         }
 
     }
@@ -76,6 +83,17 @@ public class PdfActivity extends Activity implements OnPageChangeListener {
     public void onPageChanged(int page, int pageCount) {
         pageNumber = page;
         setTitle(format("%s %s / %s", pdfName, page, pageCount));
+    }
+
+    @Click(R.id.btn_go)
+    public void go(){
+        if(!editText.getText().toString().isEmpty()){
+            pdfName = editText.getText().toString() + ".pdf";
+            display(pdfName, true);
+        }
+        else{
+            Toast.makeText(this, "Vous n\'avez rien tapé...", Toast.LENGTH_SHORT);
+        }
     }
 
 }

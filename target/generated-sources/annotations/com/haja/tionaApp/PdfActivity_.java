@@ -10,7 +10,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup.LayoutParams;
+import android.widget.EditText;
 import com.haja.tionaApp.R.id;
 import com.haja.tionaApp.R.layout;
 import com.joanzapata.pdfview.PDFView;
@@ -33,6 +35,22 @@ public final class PdfActivity_
 
     private void afterSetContentView_() {
         pdfView = ((PDFView) findViewById(id.pdfview));
+        editText = ((EditText) findViewById(id.nb_edit));
+        {
+            View view = findViewById(id.btn_go);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        PdfActivity_.this.go();
+                    }
+
+                }
+                );
+            }
+        }
         afterViews();
     }
 

@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup.LayoutParams;
+import android.widget.EditText;
 import com.haja.tionaApp.R.id;
 import com.haja.tionaApp.R.layout;
 
@@ -31,8 +32,39 @@ public final class MainActivity_
     }
 
     private void afterSetContentView_() {
+        numberEditText = ((EditText) findViewById(id.number_param));
         {
-            View view = findViewById(id.btn_test);
+            View view = findViewById(id.btn_fihirana_fanampiny);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        MainActivity_.this.btnFihiranaFanmpiny();
+                    }
+
+                }
+                );
+            }
+        }
+        {
+            View view = findViewById(id.btn_fihirana);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        MainActivity_.this.btnFihirana();
+                    }
+
+                }
+                );
+            }
+        }
+        {
+            View view = findViewById(id.btn_search);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
 
@@ -47,14 +79,14 @@ public final class MainActivity_
             }
         }
         {
-            View view = findViewById(id.btn_266);
+            View view = findViewById(id.btn_liturgique);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
 
 
                     @Override
                     public void onClick(View view) {
-                        MainActivity_.this.btn266();
+                        MainActivity_.this.btnLiturgique();
                     }
 
                 }
@@ -62,134 +94,14 @@ public final class MainActivity_
             }
         }
         {
-            View view = findViewById(id.btn_16);
+            View view = findViewById(id.btn_antema);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
 
 
                     @Override
                     public void onClick(View view) {
-                        MainActivity_.this.btn16();
-                    }
-
-                }
-                );
-            }
-        }
-        {
-            View view = findViewById(id.btn_1);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        MainActivity_.this.btn1();
-                    }
-
-                }
-                );
-            }
-        }
-        {
-            View view = findViewById(id.btn_428);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        MainActivity_.this.btn428();
-                    }
-
-                }
-                );
-            }
-        }
-        {
-            View view = findViewById(id.btn_122);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        MainActivity_.this.btn122();
-                    }
-
-                }
-                );
-            }
-        }
-        {
-            View view = findViewById(id.btn_115);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        MainActivity_.this.btn115();
-                    }
-
-                }
-                );
-            }
-        }
-        {
-            View view = findViewById(id.btn_ff16);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        MainActivity_.this.btnFF16();
-                    }
-
-                }
-                );
-            }
-        }
-        {
-            View view = findViewById(id.btn_512);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        MainActivity_.this.btn512();
-                    }
-
-                }
-                );
-            }
-        }
-        {
-            View view = findViewById(id.btn_261);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        MainActivity_.this.btn261();
-                    }
-
-                }
-                );
-            }
-        }
-        {
-            View view = findViewById(id.btn_antema1);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        MainActivity_.this.btnAntema1();
+                        MainActivity_.this.btnAntema();
                     }
 
                 }

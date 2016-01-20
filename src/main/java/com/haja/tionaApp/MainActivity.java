@@ -1,112 +1,82 @@
 
 package com.haja.tionaApp;
 
-import android.app.ActionBar;
 import android.app.Activity;
-import android.app.FragmentTransaction;
-import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
-import android.view.Menu;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.BaseAdapter;
-import android.widget.Button;
-import android.widget.GridView;
-import android.widget.TextView;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import com.googlecode.androidannotations.annotations.AfterViews;
 import com.googlecode.androidannotations.annotations.Click;
 import com.googlecode.androidannotations.annotations.EActivity;
 import com.googlecode.androidannotations.annotations.ViewById;
+import com.haja.tionaApp.utils.StorageManager;
 
 @EActivity(R.layout.activity_main)
-public class MainActivity extends Activity implements ActionBar.TabListener {
+public class MainActivity extends Activity {
 
-//    @ViewById(R.id.grid_btn)
-//    GridView gridButton;
+    private int mode = 0; // pour le mode de recherche selon le tab
+
+    // Tab titles
+    private String[] tabs = { "Fihirana", "Fihirana Fanampiny", "Antema", "Liturgique", "Chorale" };
 
     private String pdfName;
     public String[] buttonsNames ={"1","2","3","4","5","6","7","8","9","OK"};
 
+    @ViewById(R.id.number_param)
+    EditText numberEditText;
+
     @AfterViews
     void afterViews() {
-//        gridButton.setAdapter(new ButtonAdapter(this));
-//        gridButton.setOnItemClickListener(new AdapterView.OnItemClickListener(){
-//            public void onItemClick(AdapterView<?> parent,
-//                                    View v, int position, long id){
-//                Toast.makeText(getBaseContext(),
-//                        "pic" + (position + 1) + " selected",
-//                        Toast.LENGTH_SHORT).show();
-//            }
-//        });
+
     }
 
-    @Click(R.id.btn_test)
+    @Click(R.id.btn_search)
     public void btnClick(){
-        Toast.makeText(getApplicationContext(), "vous avez appuyer sur le bouton, vous savez lire...", Toast.LENGTH_SHORT).show();
+        pdfName = "";
+        switch(mode){
+            case 0:
+                break;
+            case 1:
+                pdfName = "ff";
+                break;
+            case 2:
+                pdfName = "antema";
+                break;
+            case 3:
+                pdfName = "lt";
+                break;
+            default:
+                break;
+        }
+        pdfName = pdfName + numberEditText.getText().toString() + ".pdf";
+//        if(StorageManager.exist(pdfName)){
+            showPdf(pdfName);
+//        }
+//        else {
+//            Toast.makeText(getApplicationContext(), "Chant " + pdfName + " non répertorié.", Toast.LENGTH_SHORT).show();
+//        }
+
     }
 
-    @Click(R.id.btn_16)
-    public void btn16(){
-        pdfName = "16.pdf";
-        showPdf(pdfName);
+    @Click(R.id.btn_fihirana)
+    public void btnFihirana(){
+        mode = 0;
     }
 
-    @Click(R.id.btn_428)
-    public void btn428(){
-        pdfName = "428.pdf";
-        showPdf(pdfName);
+    @Click(R.id.btn_fihirana_fanampiny)
+    public void btnFihiranaFanmpiny(){
+        mode = 1;
     }
 
-    @Click(R.id.btn_512)
-    public void btn512(){
-        pdfName = "512.pdf";
-        showPdf(pdfName);
+    @Click(R.id.btn_antema)
+    public void btnAntema(){
+        mode = 2;
     }
 
-    @Click(R.id.btn_ff16)
-    public void btnFF16(){
-        pdfName = "ff16.pdf";
-        showPdf(pdfName);
-    }
-
-    @Click(R.id.btn_261)
-    public void btn261(){
-        pdfName = "261.pdf";
-        showPdf(pdfName);
-    }
-
-    @Click(R.id.btn_antema1)
-    public void btnAntema1(){
-        pdfName = "antema1.pdf";
-        showPdf(pdfName);
-    }
-
-    @Click(R.id.btn_1)
-    public void btn1(){
-        pdfName = "1.pdf";
-        showPdf(pdfName);
-    }
-
-    @Click(R.id.btn_115)
-    public void btn115(){
-        pdfName = "115.pdf";
-        showPdf(pdfName);
-    }
-
-    @Click(R.id.btn_266)
-    public void btn266(){
-        pdfName = "266.pdf";
-        showPdf(pdfName);
-    }
-
-    @Click(R.id.btn_122)
-    public void btn122(){
-        pdfName = "642.pdf";
-        showPdf(pdfName);
+    @Click(R.id.btn_liturgique)
+    public void btnLiturgique(){
+        mode = 3;
     }
 
     public void showPdf(String name){
@@ -114,52 +84,5 @@ public class MainActivity extends Activity implements ActionBar.TabListener {
         i.putExtra("fileName", pdfName);
         this.startActivity(i);
     }
-
-    @Override
-    public void onTabSelected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
-
-    }
-
-    @Override
-    public void onTabUnselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
-
-    }
-
-    @Override
-    public void onTabReselected(ActionBar.Tab tab, FragmentTransaction fragmentTransaction) {
-
-    }
-
-//    public class ButtonAdapter extends BaseAdapter {
-//        private Context context;
-//        public ButtonAdapter(Context c){
-//            context = c;
-//        }
-//        public int getCount() {
-//            return buttonsNames.length;
-//        }
-//        public Object getItem(int position) {
-//            return position;
-//        }
-//        public long getItemId(int position) {
-//            return position;
-//        }
-//        public View getView(int position, View convertView, ViewGroup parent){
-//            Button btn;
-//            if (convertView == null) {
-//                btn = new Button(context);
-//                btn.setLayoutParams(new GridView.LayoutParams(100, 100));
-//                btn.setPadding(8, 8, 8, 8);
-//                btn.setFocusable(false);
-//                btn.setClickable(false);
-//            }else {
-//                btn = (Button) convertView;
-//            }
-//            btn.setText(buttonsNames[position]);
-//            btn.setTextColor(Color.WHITE);
-//            btn.setId(position);
-//            return btn;
-//        }
-//    }
 
 }

@@ -3,5 +3,10 @@
 	<string name="app_name">TionaByHajaRand</string>
 	<string name="hello_world">Hello world!</string>
 	<string name="menu_settings">Settings</string>
+    <string name="fihirana">Fihirana</string>
+    <string name="fihirana_fanampiny">Fihirana Fanampiny</string>
+    <string name="antema">Antema</string>
+    <string name="liturgique">Liturgique</string>
+    <string name="chorale">Chorale</string>
 
 </resources>

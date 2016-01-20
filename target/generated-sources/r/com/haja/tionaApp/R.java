@@ -19,22 +19,20 @@ public final class R {
         public static final int ic_launcher=0x7f020002;
     }
     public static final class id {
-        public static final int btn_1=0x7f08000a;
-        public static final int btn_115=0x7f08000b;
-        public static final int btn_122=0x7f08000d;
-        public static final int btn_16=0x7f080004;
-        public static final int btn_261=0x7f080008;
-        public static final int btn_266=0x7f08000c;
-        public static final int btn_428=0x7f080005;
-        public static final int btn_512=0x7f080006;
-        public static final int btn_antema1=0x7f080009;
-        public static final int btn_ff16=0x7f080007;
-        public static final int btn_scroll_view=0x7f080003;
-        public static final int btn_test=0x7f080002;
-        public static final int label_text=0x7f08000f;
-        public static final int menu_settings=0x7f080010;
-        public static final int number_param=0x7f080001;
-        public static final int pdfview=0x7f08000e;
+        public static final int btn_antema=0x7f080004;
+        public static final int btn_chorale=0x7f080006;
+        public static final int btn_fihirana=0x7f080002;
+        public static final int btn_fihirana_fanampiny=0x7f080003;
+        public static final int btn_go=0x7f08000b;
+        public static final int btn_liturgique=0x7f080005;
+        public static final int btn_scroll_view=0x7f080009;
+        public static final int btn_search=0x7f080008;
+        public static final int label_text=0x7f08000d;
+        public static final int layout_type_search=0x7f080001;
+        public static final int menu_settings=0x7f08000e;
+        public static final int nb_edit=0x7f08000a;
+        public static final int number_param=0x7f080007;
+        public static final int pdfview=0x7f08000c;
         public static final int title_app=0x7f080000;
     }
     public static final class layout {
@@ -46,8 +44,13 @@ public final class R {
         public static final int activity_main=0x7f070000;
     }
     public static final class string {
+        public static final int antema=0x7f050005;
         public static final int app_name=0x7f050000;
+        public static final int chorale=0x7f050007;
+        public static final int fihirana=0x7f050003;
+        public static final int fihirana_fanampiny=0x7f050004;
         public static final int hello_world=0x7f050001;
+        public static final int liturgique=0x7f050006;
         public static final int menu_settings=0x7f050002;
     }
     public static final class style {
