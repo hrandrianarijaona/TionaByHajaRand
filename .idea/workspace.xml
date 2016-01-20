@@ -23,112 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d35dd41-a7d7-4ca2-a9c2-854c9dc16743" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_android_android_4_1_1_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_androidannotations_androidannotations_2_7_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_androidannotations_androidannotations_api_2_7_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_codemodel_codemodel_2_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20080701.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_khronos_opengl_api_gl1_1_android_2_1_r1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xmlParserAPIs_2_6_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_1_1_4c.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/1.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/107.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/108.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/109.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/110.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/111.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/115.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/116.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/117.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/128.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/133.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/134.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/141.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/142.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/143.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/146.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/16.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/175.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/176.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/177.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/178.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/179.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/212.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/226.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/235.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/244.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/254.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/255.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/261.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/266.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/267.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/338.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/412.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/417.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/418.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/428.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/440.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/445.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/446.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/447.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/452.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/471.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/480.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/499.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/511.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/512.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/530.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/537.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/539.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/540.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/541.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/542.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/543.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/545.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/547.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/639.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/642.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/9.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/95.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/antema1.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/antema16.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/antema5.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ff16.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ff2.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ff41.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/cover.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_action_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_action_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_action_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_pdf.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/fragment_sample.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/menu/activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/arrays.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/haja/tionaApp/MainActivity_$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/haja/tionaApp/MainActivity_$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/haja/tionaApp/MainActivity_$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/haja/tionaApp/MainActivity_$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/haja/tionaApp/MainActivity_$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/haja/tionaApp/MainActivity_$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-sources/r/com/joanzapata/pdfview/R.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/r/com/haja/tionaApp/BuildConfig.java" afterPath="$PROJECT_DIR$/target/generated-sources/r/com/haja/tionaApp/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/haja/tionaApp/MainActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/haja/tionaApp/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/haja/tionaApp/PdfActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/haja/tionaApp/PdfActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TionaByHajaRand.iml" afterPath="$PROJECT_DIR$/TionaByHajaRand.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TionaByHajaRand.iws" />
@@ -155,8 +51,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/haja/tionaApp/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8309859" vertical-offset="927" max-vertical-offset="1566">
-              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.35211268" vertical-offset="927" max-vertical-offset="1566">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -852,7 +748,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="2906589583454" />
+        <entry key="$PROJECT_DIR$" value="2906601582606" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1386,7 +1282,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22131482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22131482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.49979582" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1738,8 +1634,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/haja/tionaApp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8309859" vertical-offset="927" max-vertical-offset="1566">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.35211268" vertical-offset="927" max-vertical-offset="1566">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
