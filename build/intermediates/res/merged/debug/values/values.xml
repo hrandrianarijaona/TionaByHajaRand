@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="locations">
+		<item>Home</item>
+		<item>Email</item>
+		<item>Calendar</item>
+		<item>Browser</item>
+	</string-array>
+    <string name="antema">Antema</string>
+    <string name="app_name">TionaByHajaRand</string>
+    <string name="chorale">Chorale</string>
+    <string name="fihirana">Fihirana</string>
+    <string name="fihirana_fanampiny">Fihirana Fanampiny</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="liturgique">Liturgique</string>
+    <string name="menu_settings">Settings</string>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+</resources>

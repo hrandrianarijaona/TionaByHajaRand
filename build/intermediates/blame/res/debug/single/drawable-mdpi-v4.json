@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/haja/Android/workspace/TionaByHajaRand/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_action_search.png",
+        "source": "/home/haja/Android/workspace/TionaByHajaRand/src/main/res/drawable-mdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/home/haja/Android/workspace/TionaByHajaRand/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/home/haja/Android/workspace/TionaByHajaRand/src/main/res/drawable-mdpi/ic_launcher.png"
+    }
+]
