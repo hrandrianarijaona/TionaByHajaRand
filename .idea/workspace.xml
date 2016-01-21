@@ -23,8 +23,104 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d35dd41-a7d7-4ca2-a9c2-854c9dc16743" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_pdfview_1_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/androidannotations_api_3_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/exploded-aar/com.joanzapata.pdfview/android-pdfview/1.0.4/jars/classes.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/1.pdf" afterPath="$PROJECT_DIR$/src/main/assets/1.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/10.pdf" afterPath="$PROJECT_DIR$/src/main/assets/10.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/100.pdf" afterPath="$PROJECT_DIR$/src/main/assets/100.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/101.pdf" afterPath="$PROJECT_DIR$/src/main/assets/101.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/102.pdf" afterPath="$PROJECT_DIR$/src/main/assets/102.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/107.pdf" afterPath="$PROJECT_DIR$/src/main/assets/107.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/108.pdf" afterPath="$PROJECT_DIR$/src/main/assets/108.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/109.pdf" afterPath="$PROJECT_DIR$/src/main/assets/109.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/110.pdf" afterPath="$PROJECT_DIR$/src/main/assets/110.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/111.pdf" afterPath="$PROJECT_DIR$/src/main/assets/111.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/115.pdf" afterPath="$PROJECT_DIR$/src/main/assets/115.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/116.pdf" afterPath="$PROJECT_DIR$/src/main/assets/116.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/117.pdf" afterPath="$PROJECT_DIR$/src/main/assets/117.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/128.pdf" afterPath="$PROJECT_DIR$/src/main/assets/128.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/133.pdf" afterPath="$PROJECT_DIR$/src/main/assets/133.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/134.pdf" afterPath="$PROJECT_DIR$/src/main/assets/134.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/141.pdf" afterPath="$PROJECT_DIR$/src/main/assets/141.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/142.pdf" afterPath="$PROJECT_DIR$/src/main/assets/142.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/143.pdf" afterPath="$PROJECT_DIR$/src/main/assets/143.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/146.pdf" afterPath="$PROJECT_DIR$/src/main/assets/146.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/16.pdf" afterPath="$PROJECT_DIR$/src/main/assets/16.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/175.pdf" afterPath="$PROJECT_DIR$/src/main/assets/175.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/176.pdf" afterPath="$PROJECT_DIR$/src/main/assets/176.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/177.pdf" afterPath="$PROJECT_DIR$/src/main/assets/177.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/178.pdf" afterPath="$PROJECT_DIR$/src/main/assets/178.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/179.pdf" afterPath="$PROJECT_DIR$/src/main/assets/179.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/212.pdf" afterPath="$PROJECT_DIR$/src/main/assets/212.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/226.pdf" afterPath="$PROJECT_DIR$/src/main/assets/226.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/235.pdf" afterPath="$PROJECT_DIR$/src/main/assets/235.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/244.pdf" afterPath="$PROJECT_DIR$/src/main/assets/244.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/254.pdf" afterPath="$PROJECT_DIR$/src/main/assets/254.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/255.pdf" afterPath="$PROJECT_DIR$/src/main/assets/255.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/261.pdf" afterPath="$PROJECT_DIR$/src/main/assets/261.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/266.pdf" afterPath="$PROJECT_DIR$/src/main/assets/266.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/267.pdf" afterPath="$PROJECT_DIR$/src/main/assets/267.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/338.pdf" afterPath="$PROJECT_DIR$/src/main/assets/338.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/412.pdf" afterPath="$PROJECT_DIR$/src/main/assets/412.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/417.pdf" afterPath="$PROJECT_DIR$/src/main/assets/417.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/418.pdf" afterPath="$PROJECT_DIR$/src/main/assets/418.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/428.pdf" afterPath="$PROJECT_DIR$/src/main/assets/428.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/440.pdf" afterPath="$PROJECT_DIR$/src/main/assets/440.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/445.pdf" afterPath="$PROJECT_DIR$/src/main/assets/445.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/446.pdf" afterPath="$PROJECT_DIR$/src/main/assets/446.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/447.pdf" afterPath="$PROJECT_DIR$/src/main/assets/447.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/452.pdf" afterPath="$PROJECT_DIR$/src/main/assets/452.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/471.pdf" afterPath="$PROJECT_DIR$/src/main/assets/471.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/480.pdf" afterPath="$PROJECT_DIR$/src/main/assets/480.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/499.pdf" afterPath="$PROJECT_DIR$/src/main/assets/499.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/511.pdf" afterPath="$PROJECT_DIR$/src/main/assets/511.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/512.pdf" afterPath="$PROJECT_DIR$/src/main/assets/512.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/515.pdf" afterPath="$PROJECT_DIR$/src/main/assets/515.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/516.pdf" afterPath="$PROJECT_DIR$/src/main/assets/516.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/530.pdf" afterPath="$PROJECT_DIR$/src/main/assets/530.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/537.pdf" afterPath="$PROJECT_DIR$/src/main/assets/537.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/539.pdf" afterPath="$PROJECT_DIR$/src/main/assets/539.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/540.pdf" afterPath="$PROJECT_DIR$/src/main/assets/540.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/541.pdf" afterPath="$PROJECT_DIR$/src/main/assets/541.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/542.pdf" afterPath="$PROJECT_DIR$/src/main/assets/542.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/543.pdf" afterPath="$PROJECT_DIR$/src/main/assets/543.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/545.pdf" afterPath="$PROJECT_DIR$/src/main/assets/545.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/547.pdf" afterPath="$PROJECT_DIR$/src/main/assets/547.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/639.pdf" afterPath="$PROJECT_DIR$/src/main/assets/639.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/642.pdf" afterPath="$PROJECT_DIR$/src/main/assets/642.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/746.pdf" afterPath="$PROJECT_DIR$/src/main/assets/746.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/750.pdf" afterPath="$PROJECT_DIR$/src/main/assets/750.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/751.pdf" afterPath="$PROJECT_DIR$/src/main/assets/751.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/752.pdf" afterPath="$PROJECT_DIR$/src/main/assets/752.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/753.pdf" afterPath="$PROJECT_DIR$/src/main/assets/753.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/754.pdf" afterPath="$PROJECT_DIR$/src/main/assets/754.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/786.pdf" afterPath="$PROJECT_DIR$/src/main/assets/786.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/787.pdf" afterPath="$PROJECT_DIR$/src/main/assets/787.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/788.pdf" afterPath="$PROJECT_DIR$/src/main/assets/788.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/789.pdf" afterPath="$PROJECT_DIR$/src/main/assets/789.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/790.pdf" afterPath="$PROJECT_DIR$/src/main/assets/790.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/9.pdf" afterPath="$PROJECT_DIR$/src/main/assets/9.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/95.pdf" afterPath="$PROJECT_DIR$/src/main/assets/95.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/98.pdf" afterPath="$PROJECT_DIR$/src/main/assets/98.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/antema1.pdf" afterPath="$PROJECT_DIR$/src/main/assets/antema1.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/antema16.pdf" afterPath="$PROJECT_DIR$/src/main/assets/antema16.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/antema22.pdf" afterPath="$PROJECT_DIR$/src/main/assets/antema22.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/antema5.pdf" afterPath="$PROJECT_DIR$/src/main/assets/antema5.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/ff16.pdf" afterPath="$PROJECT_DIR$/src/main/assets/ff16.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/ff2.pdf" afterPath="$PROJECT_DIR$/src/main/assets/ff2.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/assets/ff41.pdf" afterPath="$PROJECT_DIR$/src/main/assets/ff41.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/com/haja/tionaApp/BuildConfig.java" afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/com/haja/tionaApp/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/apt/debug/com/haja/tionaApp/MainActivity_.java" afterPath="$PROJECT_DIR$/build/generated/source/apt/debug/com/haja/tionaApp/MainActivity_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TionaByHajaRand.iml" afterPath="$PROJECT_DIR$/TionaByHajaRand.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/apt/androidannotations.log" afterPath="$PROJECT_DIR$/build/generated/source/apt/androidannotations.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TionaByHajaRand.iws" />
@@ -48,11 +144,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/haja/tionaApp/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35211268" vertical-offset="927" max-vertical-offset="1566">
-              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="640" max-vertical-offset="1566">
+              <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,20 +159,18 @@
       <file leaf-file-name="PdfActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/haja/tionaApp/PdfActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1303" max-vertical-offset="1890">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1566" max-vertical-offset="1890">
               <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="1152">
-              <caret line="35" column="107" selection-start-line="35" selection-start-column="107" selection-end-line="35" selection-end-column="107" />
+            <state vertical-scroll-proportion="0.5070422" vertical-offset="54" max-vertical-offset="1170">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -85,7 +179,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+            <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="702">
               <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
               <folding />
             </state>
@@ -95,7 +189,7 @@
       <file leaf-file-name="mavenpom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mavenpom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="349" max-vertical-offset="1476">
+            <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1476">
               <caret line="22" column="41" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="41" />
               <folding />
             </state>
@@ -108,7 +202,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.724138" vertical-offset="72" max-vertical-offset="630">
+            <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="630">
               <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding />
             </state>
@@ -196,10 +290,12 @@
                 <option name="name" value="assembleDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Assembles the android (on device) tests for the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assembleDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Assembles the unit tests for the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assembleDebugUnitTest" />
               </ExternalTaskPojo>
@@ -209,6 +305,7 @@
                 <option name="name" value="assembleRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Assembles the unit tests for the Release build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assembleReleaseUnitTest" />
               </ExternalTaskPojo>
@@ -255,7 +352,7 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
+                <option name="name" value="compileDebugAndroidTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -271,7 +368,7 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileDebugJavaWithJavac" />
+                <option name="name" value="compileDebugJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -287,7 +384,7 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileDebugUnitTestJavaWithJavac" />
+                <option name="name" value="compileDebugUnitTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -303,7 +400,7 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileReleaseJavaWithJavac" />
+                <option name="name" value="compileReleaseJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -319,7 +416,7 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileReleaseUnitTestJavaWithJavac" />
+                <option name="name" value="compileReleaseUnitTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -331,7 +428,7 @@
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
+                <option name="description" value="Installs and runs the tests for Debug build on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="connectedAndroidTest" />
               </ExternalTaskPojo>
@@ -339,11 +436,6 @@
                 <option name="description" value="Runs all device checks on currently connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="connectedCheck" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs and runs the tests for debug on connected devices." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="connectedDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in root project 'TionaByHajaRand'." />
@@ -356,14 +448,21 @@
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="deviceAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="deviceCheck" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dexDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dexDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dexRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -446,14 +545,6 @@
                 <option name="name" value="installDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="jarDebugClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="jarReleaseClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="lint" />
@@ -479,10 +570,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="mergeDebugAndroidTestJniLibFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeDebugAndroidTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -491,19 +578,11 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="mergeDebugJniLibFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseAssets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="mergeReleaseJniLibFolders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -537,6 +616,14 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="preCompileDebugUnitTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="preCompileReleaseUnitTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="preDebugAndroidTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -545,15 +632,19 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="preDebugUnitTestBuild" />
+                <option name="name" value="preDexDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="preDexDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="preDexRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="preReleaseBuild" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.joanzapata.pdfview:android-pdfview:1.0.4" />
@@ -570,15 +661,7 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareDebugUnitTestDependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareReleaseDependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareReleaseUnitTestDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -606,10 +689,6 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processDebugUnitTestJavaRes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processReleaseJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -619,10 +698,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processReleaseResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of root project 'TionaByHajaRand'." />
@@ -640,73 +715,24 @@
                 <option name="name" value="signingReport" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prints out all the source sets defined in this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="sourceSets" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the tasks runnable from root project 'TionaByHajaRand'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Run unit tests for all variants." />
+                <option name="description" value="Run all unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Run unit tests for the debug build." />
+                <option name="description" value="Run unit tests for the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="testDebugUnitTest" />
+                <option name="name" value="testDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Run unit tests for the release build." />
+                <option name="description" value="Run unit tests for the Release build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="testReleaseUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesWithDexForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesWithDexForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformClassesWithDexForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNative_libsWithMergeJniLibsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNative_libsWithMergeJniLibsForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformNative_libsWithMergeJniLibsForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformResourcesWithMergeJavaResForRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="transformResourcesWithMergeJavaResForReleaseUnitTest" />
+                <option name="name" value="testRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Uninstall all applications." />
@@ -748,7 +774,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="2906601582606" />
+        <entry key="$PROJECT_DIR$" value="2906685556038" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -916,17 +942,17 @@
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_pdf.xml" />
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/haja/tionaApp/PdfActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/haja/tionaApp/MainActivity.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="2495" />
-    <option name="height" value="1084" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -975,6 +1001,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1003,7 +1030,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1258,16 +1284,35 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="2495" height="1084" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="24" width="2495" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287056" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.49979582" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978564" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.50020415" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1275,9 +1320,9 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2829582" sideWeight="0.5006125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3386924" sideWeight="0.49857086" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2829582" sideWeight="0.4993875" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2829582" sideWeight="0.4993875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42065492" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.49979582" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1288,6 +1333,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287056" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1354,6 +1400,112 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/haja/tionaApp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1566">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haja/tionaApp/PdfActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1566" max-vertical-offset="1890">
+          <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="1152">
+          <caret line="35" column="107" selection-start-line="35" selection-start-column="107" selection-end-line="35" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="702">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mavenpom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1476">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_pdf.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="630">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haja/tionaApp/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1566">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haja/tionaApp/PdfActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1566" max-vertical-offset="1890">
+          <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="1152">
+          <caret line="35" column="107" selection-start-line="35" selection-start-column="107" selection-end-line="35" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="702">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mavenpom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1476">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_pdf.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="630">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/haja/tionaApp/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1692">
           <caret line="82" column="42" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
           <folding>
@@ -1366,9 +1518,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="1890">
           <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1400,9 +1550,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="1890">
           <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1435,9 +1583,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1278" max-vertical-offset="1566">
           <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1462,9 +1608,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="1566">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1489,9 +1633,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="792" max-vertical-offset="1566">
           <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1509,9 +1651,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1305">
           <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1529,9 +1669,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="1305">
           <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1571,7 +1709,7 @@
         <state vertical-scroll-proportion="0.3068182" vertical-offset="0" max-vertical-offset="1692">
           <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding>
-            <element signature="e#366#384#0" expanded="true" />
+            <element signature="e#366#384#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1581,7 +1719,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.724138" vertical-offset="72" max-vertical-offset="630">
+        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="630">
           <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding />
         </state>
@@ -1591,10 +1729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1908">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#2802#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1614,31 +1748,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="1152">
-          <caret line="35" column="107" selection-start-line="35" selection-start-column="107" selection-end-line="35" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/haja/tionaApp/PdfActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1303" max-vertical-offset="1890">
           <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/haja/tionaApp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35211268" vertical-offset="927" max-vertical-offset="1566">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="640" max-vertical-offset="1566">
+          <caret line="57" column="60" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5070422" vertical-offset="54" max-vertical-offset="1170">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

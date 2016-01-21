@@ -88,6 +88,21 @@ public final class MainActivity_
             }
         }
         {
+            View view = hasViews.findViewById(id.btn_liturgique);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        MainActivity_.this.btnLiturgique();
+                    }
+
+                }
+                );
+            }
+        }
+        {
             View view = hasViews.findViewById(id.btn_antema);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
@@ -111,21 +126,6 @@ public final class MainActivity_
                     @Override
                     public void onClick(View view) {
                         MainActivity_.this.btnFihiranaFanmpiny();
-                    }
-
-                }
-                );
-            }
-        }
-        {
-            View view = hasViews.findViewById(id.btn_liturgique);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        MainActivity_.this.btnLiturgique();
                     }
 
                 }
