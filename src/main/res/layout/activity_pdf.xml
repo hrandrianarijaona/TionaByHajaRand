@@ -9,16 +9,62 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+        <TextView
+            android:id="@+id/search_type"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/fihirana"
+            android:gravity="center"
+            android:layout_margin="5dp"/>
         <EditText
             android:id="@+id/nb_edit"
             android:layout_width="100dp"
             android:layout_height="40dp"
-            android:inputType="number"/>
+            android:inputType="number"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_vertical"/>
         <Button
             android:id="@+id/btn_go"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Go"/>
+            android:text="Go"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btn_fihirana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fihirana"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btn_fihirana_fanampiny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fihirana_fanampiny"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btn_antema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/antema"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btn_liturgique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/liturgique"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btn_chorale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chorale"
+            android:layout_margin="5dp"/>
+
     </LinearLayout>
 
     <com.joanzapata.pdfview.PDFView
