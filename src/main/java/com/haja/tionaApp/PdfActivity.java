@@ -1,6 +1,9 @@
 package com.haja.tionaApp;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Environment;
 import android.util.Log;
@@ -22,6 +25,9 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
 import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by haja on 17/01/15.
@@ -46,10 +52,14 @@ public class PdfActivity extends Activity implements OnPageChangeListener {
     @ViewById(R.id.search_type)
     TextView searchType;
 
+    String[] choraleSongs;
     Intent intent;
     String pdfName;
     Integer pageNumber = 1;
     private int mode = 0; // pour le mode de recherche selon le tab : 0 => fihirana, 1 => ff, 2 => antema, 3 => lt, 4 default
+
+    AlertDialog.Builder builderChoraleBox;
+    Dialog choraleDialog;
 
     @AfterInject
     public void afterInject(){
@@ -59,16 +69,9 @@ public class PdfActivity extends Activity implements OnPageChangeListener {
     public void afterViews(){
         intent = getIntent();
         pdfName = intent.getStringExtra("fileName");
+        Log.d("haja", "current pdf: " + pdfName);
 
-        if(pdfName!=null && pdfName.length()>0) {
-//            String tmp = retrieveFilePath();
-//            if(tmp!=null && tmp.length()>0){
-//                tmp = tmp + pdfName;
-//                display(tmp, true);
-//            }
-              display(pdfName, true);
-        }
-
+        // Initialisation des boutons
         View.OnClickListener onClickListener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -108,9 +111,79 @@ public class PdfActivity extends Activity implements OnPageChangeListener {
         btnFF.setOnClickListener(onClickListener);
         btnFihirana.setOnClickListener(onClickListener);
         btnAntema.setOnClickListener(onClickListener);
-        btnChorale.setOnClickListener(onClickListener);
         btnLiturgie.setOnClickListener(onClickListener);
 
+        choraleSongs = listingChoraleSongs();
+
+
+        // Mis en place de la dialogue box pour le listing des chants de chorale
+        builderChoraleBox = new AlertDialog.Builder(this);
+        builderChoraleBox
+                .setTitle(R.string.chorale_songs)
+                .setItems(choraleSongs, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        pdfName = choraleSongs[which];
+                        display(pdfName, true);
+                    }
+                })
+                .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+
+        choraleDialog = builderChoraleBox.create();
+
+        // Affichage du pdf
+        if(pdfName!=null && pdfName.length()>0) {
+            display(pdfName, true);
+        }
+
+    }
+
+    private String[] listingChoraleSongs(){
+        List<String> tempList = new ArrayList<String>();
+        String[] result = new String[0];
+        String [] list;
+        try {
+            list = getAssets().list("");
+            result = new String[list.length];
+            if (list.length > 0) {
+                for (String aList : list) {
+                    if (aList.contains("chr_")) { // on ajoute les chants de chorale
+                        Log.d("haja", "TEST: " + aList);
+                        tempList.add(aList.replace("\\.pdf", ""));
+//                        result[i] = list[i].replace("\\.pdf", "");
+                    }
+                }
+                result = new String[tempList.size()];
+                for (int i = 0; i < result.length; i++) {
+                    result[i] = tempList.get(i);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
+
+    private String[] listingChoraleSongs2(){
+        String[] result = new String[0];
+        String [] list;
+        try {
+            list = getAssets().list("chorale");
+            result = new String[list.length];
+            if (list.length > 0) {
+                for (int i = 0; i < list.length; i++) {
+                    result[i] = list[i].replace("\\.pdf", "");
+                }
+            }
+        } catch (IOException e) {
+        }
+
+        return result;
     }
 
     public String retrieveFilePath(){
@@ -129,10 +202,29 @@ public class PdfActivity extends Activity implements OnPageChangeListener {
         }
     }
 
+    /**
+     * Fonction d'affichage d'un pdf
+     * @param assetFileName
+     * @param jumpToFirstPage
+     */
     private void display(String assetFileName, boolean jumpToFirstPage) {
         if (jumpToFirstPage) pageNumber = 1;
         setTitle(pdfName = assetFileName);
         pdfView.fromAsset(assetFileName)
+                .defaultPage(pageNumber)
+                .onPageChange(this)
+                .load();
+    }
+
+    /**
+     * Fonction d'affichage d'un pdf
+     * @param file
+     * @param jumpToFirstPage
+     */
+    private void display(File file, boolean jumpToFirstPage) {
+        if (jumpToFirstPage) pageNumber = 1;
+        setTitle(file.getName());
+        pdfView.fromFile(file)
                 .defaultPage(pageNumber)
                 .onPageChange(this)
                 .load();
@@ -167,8 +259,17 @@ public class PdfActivity extends Activity implements OnPageChangeListener {
             display(pdfName, true);
         }
         else{
-            Toast.makeText(this, "Vous n\'avez rien tapé...", Toast.LENGTH_SHORT);
+            Toast.makeText(this, "Vous n\'avez rien tapé...", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    @Click(R.id.btn_chorale)
+    public void showChoraleSongs(){
+//        Log.d("haja", "liste: ");
+//        for (String choraleSong : choraleSongs) {
+//            Log.d("haja", choraleSong);
+//        }
+        choraleDialog.show();
     }
 
 }

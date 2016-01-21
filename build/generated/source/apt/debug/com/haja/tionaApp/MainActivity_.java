@@ -73,21 +73,6 @@ public final class MainActivity_
     public void onViewChanged(HasViews hasViews) {
         numberEditText = ((EditText) hasViews.findViewById(id.number_param));
         {
-            View view = hasViews.findViewById(id.btn_search);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        MainActivity_.this.btnClick();
-                    }
-
-                }
-                );
-            }
-        }
-        {
             View view = hasViews.findViewById(id.btn_liturgique);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
@@ -141,6 +126,21 @@ public final class MainActivity_
                     @Override
                     public void onClick(View view) {
                         MainActivity_.this.btnFihirana();
+                    }
+
+                }
+                );
+            }
+        }
+        {
+            View view = hasViews.findViewById(id.btn_search);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        MainActivity_.this.btnClick();
                     }
 
                 }

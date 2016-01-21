@@ -8,5 +8,9 @@
     <string name="antema">Antema</string>
     <string name="liturgique">Liturgique</string>
     <string name="chorale">Chorale</string>
+    <string name="others">Autres</string>
+    <string name="chorale_songs">Chants chorales</string>
+    <string name="other_songs">Chants autre</string>
+    <string name="cancel">Annuler</string>
 
 </resources>

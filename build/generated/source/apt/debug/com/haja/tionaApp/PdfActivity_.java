@@ -15,7 +15,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup.LayoutParams;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import com.haja.tionaApp.R.id;
 import com.haja.tionaApp.R.layout;
 import com.joanzapata.pdfview.PDFView;
@@ -73,8 +75,14 @@ public final class PdfActivity_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        pdfView = ((PDFView) hasViews.findViewById(id.pdfview));
+        btnLiturgie = ((Button) hasViews.findViewById(id.btn_liturgique));
         editText = ((EditText) hasViews.findViewById(id.nb_edit));
+        pdfView = ((PDFView) hasViews.findViewById(id.pdfview));
+        btnFF = ((Button) hasViews.findViewById(id.btn_fihirana_fanampiny));
+        btnAntema = ((Button) hasViews.findViewById(id.btn_antema));
+        btnFihirana = ((Button) hasViews.findViewById(id.btn_fihirana));
+        searchType = ((TextView) hasViews.findViewById(id.search_type));
+        btnChorale = ((Button) hasViews.findViewById(id.btn_chorale));
         {
             View view = hasViews.findViewById(id.btn_go);
             if (view!= null) {
@@ -89,6 +97,18 @@ public final class PdfActivity_
                 }
                 );
             }
+        }
+        if (btnChorale!= null) {
+            btnChorale.setOnClickListener(new OnClickListener() {
+
+
+                @Override
+                public void onClick(View view) {
+                    PdfActivity_.this.showChoraleSongs();
+                }
+
+            }
+            );
         }
         afterViews();
     }
