@@ -74,14 +74,14 @@
             android:layout_below="@+id/number_param"
             android:layout_centerHorizontal="true"/>
 
-    <ScrollView
-        android:id="@+id/btn_scroll_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btn_search">
-
-
-
-    </ScrollView>
+    <ImageView
+        android:id="@+id/btn_info"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/info"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"/>
 
 </RelativeLayout>
