@@ -13,6 +13,8 @@ import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
+import java.io.IOException;
+
 @EActivity(R.layout.activity_main)
 public class MainActivity extends Activity {
 
@@ -50,13 +52,15 @@ public class MainActivity extends Activity {
             default:
                 break;
         }
-        pdfName = pdfName + numberEditText.getText().toString() + ".pdf";
-//        if(StorageManager.exist(pdfName)){
+
+        String number = numberEditText.getText().toString();
+        pdfName = pdfName + number + ".pdf";
+        if(songExist(number)) {
             showPdf(pdfName);
-//        }
-//        else {
-//            Toast.makeText(getApplicationContext(), "Chant " + pdfName + " non répertorié.", Toast.LENGTH_SHORT).show();
-//        }
+        }
+        else{
+            Toast.makeText(this, R.string.not_found, Toast.LENGTH_SHORT).show();
+        }
 
     }
 
@@ -84,6 +88,26 @@ public class MainActivity extends Activity {
         Intent i = new Intent(this, PdfActivity_.class);
         i.putExtra("fileName", pdfName);
         this.startActivity(i);
+    }
+
+    public boolean songExist(String song){
+        boolean exist = false;
+        String [] list;
+        try {
+            list = getAssets().list("");
+            if (list.length > 0) {
+                for (String aList : list) {
+                    if(aList.equals(song+".pdf")){
+                        exist = true;
+                        break;
+                    }
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return exist;
     }
 
 }

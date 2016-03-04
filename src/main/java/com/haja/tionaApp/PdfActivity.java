@@ -169,37 +169,24 @@ public class PdfActivity extends Activity implements OnPageChangeListener {
         return result;
     }
 
-    private String[] listingChoraleSongs2(){
-        String[] result = new String[0];
+    public boolean songExist(String song){
+        boolean exist = false;
         String [] list;
         try {
-            list = getAssets().list("chorale");
-            result = new String[list.length];
+            list = getAssets().list("");
             if (list.length > 0) {
-                for (int i = 0; i < list.length; i++) {
-                    result[i] = list[i].replace("\\.pdf", "");
+                for (String aList : list) {
+                    if(aList.equals(song+".pdf")){
+                        exist = true;
+                        break;
+                    }
                 }
             }
         } catch (IOException e) {
+            e.printStackTrace();
         }
 
-        return result;
-    }
-
-    public String retrieveFilePath(){
-        String state = Environment.getExternalStorageState();
-
-        if (Environment.MEDIA_MOUNTED.equals(state)) {
-            // We can read and write the media
-            return Environment.getExternalStorageDirectory().getAbsolutePath().toString() + "/Tiona/pdf/";
-        } else if (Environment.MEDIA_MOUNTED_READ_ONLY.equals(state)) {
-            // We can only read the media
-            return Environment.getExternalStorageDirectory().getAbsolutePath().toString() + "/Tiona/pdf/";
-        } else {
-            // Something else is wrong. It may be one of many other states, but all we need
-            //  to know is we can neither read nor write
-            return "";
-        }
+        return exist;
     }
 
     /**
@@ -255,8 +242,15 @@ public class PdfActivity extends Activity implements OnPageChangeListener {
                 default:
                     break;
             }
+            String number = editText.getText().toString();
             pdfName = pdfName + editText.getText().toString() + ".pdf";
-            display(pdfName, true);
+            if(songExist(number)) {
+                display(pdfName, true);
+            }
+            else{
+                Toast.makeText(this, R.string.not_found, Toast.LENGTH_SHORT).show();
+            }
+
         }
         else{
             Toast.makeText(this, "Vous n\'avez rien tapé...", Toast.LENGTH_SHORT).show();

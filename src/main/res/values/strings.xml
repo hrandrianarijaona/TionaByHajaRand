@@ -12,5 +12,6 @@
     <string name="chorale_songs">Chants chorales</string>
     <string name="other_songs">Chants autre</string>
     <string name="cancel">Annuler</string>
+    <string name="not_found">Chant non répertorié.</string>
 
 </resources>
