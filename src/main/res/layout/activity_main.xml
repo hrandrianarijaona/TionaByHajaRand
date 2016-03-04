@@ -1,24 +1,21 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-    android:background="#E6E2AF">
+    android:background="@drawable/main_background">
 
-		<TextView
-		android:id="@+id/title_app"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-		android:text="@string/app_name"
-        android:textColor="#A16D39"
-        android:textSize="60sp"
-        android:textStyle="italic"/>
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"/>
 
     <LinearLayout
         android:id="@+id/layout_type_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_below="@id/title_app">
+        android:layout_below="@id/title">
 
         <Button
             android:id="@+id/btn_fihirana"
